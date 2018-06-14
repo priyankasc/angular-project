@@ -1,0 +1,29 @@
+table td {
+	height: 50px;
+	width: 250px;
+	font-size: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+	 margin: 0 auto;
+
+}
+.error {
+	color: red;
+	font-size: 15px;
+}
+
+table caption {
+	color: blue;
+	font-size: 30px;
+}
+
+
+.success {
+	color: purple;
+	font-size: 30px;
+}
