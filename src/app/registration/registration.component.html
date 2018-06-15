@@ -74,9 +74,13 @@
 		 </div>
 	  </td>
 	 </tr>		 
-	 <tr> <td></td>	  
+	 <tr> <td>
+	 	<button type="button" (click)="userForm.reset(userForm)">
+    		Reset
+  		</button>
+	 </td>	  
 	   <td colspan="2">
-	      <button>Submit</button>
+	      <button matTooltip='this is the tooltip' matTooltipPosition='below'>Submit</button>
 	   </td>
 	 </tr>	   
   </table>  
@@ -85,3 +89,7 @@
 <p *ngIf="isValidFormSubmitted" [ngClass] = "'success'">
     Form submitted successfully.
 </p>
+
+
+<button  matTooltip='this is the tooltip' matTooltipPosition='below' mat-raised-button (click)="openDialog()">Open Dialog</button>
+
