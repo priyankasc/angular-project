@@ -1,5 +1,6 @@
 export interface UserResponse {
-  login: string;
-  bio: string;
-  company: string;
+  id: number;	
+  name: string;
+  age: number;
+  location: string;
 }

@@ -1,8 +1,12 @@
- <table>
+ <table >
  	<tr *ngFor="let user of users">
  		<td>  {{user.id}}</td>
- 		<td>  {{user.login}}</td>
+ 		<td>  {{user.name}}</td>
+ 		<td>  {{user.age}}</td>
+ 		<td>  {{user.location}}</td>
  		<td><button name='edit' (click)='editUser(user)'>EDIT</button></td>
  		<td><button name='delete' (click)='deleteUser(user)'>DELETE</button></td>
  	</tr>
  </table>
+
+ <button (click)="createUser()">Create User</button>

@@ -16,8 +16,11 @@ import { DialogComponent } from './dialog/dialog.component';
 import { TooltipComponent } from './tooltip/tooltip.component';
 import { UsersComponent } from './users/users.component';
 
-// for user crud
 import { HttpClientModule } from '@angular/common/http';
+
+
+// for CRUD
+import { UsersService } from './users.service';
 
 @NgModule({
   declarations: [
@@ -29,11 +32,11 @@ import { HttpClientModule } from '@angular/common/http';
     UsersComponent
   ],
   imports: [
-    BrowserModule, BrowserAnimationsModule, HttpClientModule, 
+    BrowserModule, BrowserAnimationsModule, 
     AppRoutingModule, FormsModule, MatTooltipModule,
-    MatCardModule, MatButtonModule, MatDialogModule, ReactiveFormsModule 
+    MatCardModule, MatButtonModule, MatDialogModule, ReactiveFormsModule , HttpClientModule
   ],
-  providers: [],
+  providers: [UsersService],
    entryComponents: [DialogComponent, TooltipComponent],
   bootstrap: [AppComponent]
 })

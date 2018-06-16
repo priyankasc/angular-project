@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Sneha",
+      "location": "pune",
+      "age": 25
+    },
+    {
+      "id": 2,
+      "name": "Rupali",
+      "location": "Mumbai",
+      "age": 25
+    },
+    {
+      "id": 3,
+      "name": "Priya",
+      "location": "delhi",
+      "age": 25
+    },
+    {
+      "id": 4,
+      "name": "Sweta",
+      "location": "new mumbai",
+      "age": 21
+    },
+    {
+      "id": 5,
+      "name": "Tina",
+      "location": "Noida",
+      "age": 25
+    },
+    {
+        "id": 53,
+      "name": "Hina",
+      "location": "JK",
+      "age": 25
+    }
+  ]
+}
